@@ -1,0 +1,15 @@
+{
+    "config": {
+        "title": "Desky configuration",
+        "step": {
+            "user": {
+                "title": "Desky configuration",
+                "description": "Add configuration for your desky. Documentation at https://github.com/vipial1/desky-ha",
+                "data": {
+                    "name": "Name",
+                    "endpoint": "Endpoint"
+                }
+            }
+        }
+    }
+}

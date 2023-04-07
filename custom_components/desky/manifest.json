@@ -1,0 +1,16 @@
+{
+  "domain": "desky",
+  "name": "Desky",
+  "config_flow": true,
+  "documentation": "https://github.com/vipial1/desky-ha",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@vipial1"
+  ],
+  "iot_class": "local_polling",
+  "version": "1.0"
+}

@@ -1,0 +1,4 @@
+{
+    "name": "Desky HA",
+    "domains": ["number", "button", "sensor"]
+}
