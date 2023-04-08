@@ -8,8 +8,8 @@ import voluptuous as vol
 _LOGGER = logging.getLogger(__name__)
 
 
-@config_entries.HANDLERS.register("desky-ha")
-class DeskyHAFlowHandler(config_entries.ConfigFlow, domain="desky-ha"):
+@config_entries.HANDLERS.register("desky")
+class DeskyHAFlowHandler(config_entries.ConfigFlow, domain="desky"):
     """Handle a config flow."""
 
     VERSION = 1
