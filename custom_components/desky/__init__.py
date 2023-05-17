@@ -28,7 +28,7 @@ async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
 
 async def async_setup_entry(hass, config_entry):
     register_device(hass, config_entry, config_entry.data.get(CONF_NAME))
-    hass.config_entries.async_setup_platforms(config_entry, PLATFORMS)
+    await hass.config_entries.async_forward_entry_setups(config_entry, PLATFORMS)
 
     return True
 
